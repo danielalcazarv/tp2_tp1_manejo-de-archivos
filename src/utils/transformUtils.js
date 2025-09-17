@@ -6,6 +6,10 @@
  * @returns {number[]} array de numeros
  */
 function transformarStringEnArrayDeNumeros(str, separador) {
+return str
+        .split(separador)
+        .map(fragmento => Number(fragmento.trim()))
+        .filter(numero => !isNaN(numero));
 }
 
 /**
@@ -15,6 +19,11 @@ function transformarStringEnArrayDeNumeros(str, separador) {
  * @returns {string} el nuevo string
  */
 function transformarArrayDeNumerosAUnSoloString(arr, separador) {
+    return arr.join(separador);
 }
 
 // exportar ambas funciones
+export {
+    transformarStringEnArrayDeNumeros,
+    transformarArrayDeNumerosAUnSoloString
+};
