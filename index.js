@@ -5,3 +5,4 @@
 // combino los primeros dos arrays
 
 // combino los cuatro arrays
+console.log("Hola Mundo")

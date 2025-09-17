@@ -2,10 +2,20 @@
   "type": "module",
   "name": "01-tp-manejo-de-archivos",
   "version": "1.0.0",
-  "description": "",
   "main": "main.js",
-  "scripts": {},
+  "scripts": {
+    "test": "node index.js"
+  },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Daniel Alcazar",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielalcazarv/tp2_tp1_manejo-de-archivos.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danielalcazarv/tp2_tp1_manejo-de-archivos/issues"
+  },
+  "homepage": "https://github.com/danielalcazarv/tp2_tp1_manejo-de-archivos#readme",
+  "description": ""
 }
